@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_menu_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#31000000" >
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="35dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/conversation_options_bg"
+        android:layout_centerInParent="true">
+
+        <GridView
+            android:layout_margin="5dp"
+            android:id="@+id/gridview_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.15"
+            android:background="@color/black"
+            android:horizontalSpacing="1.0px"
+            android:listSelector="@null"
+            android:numColumns="1"
+            android:scrollbars="none"
+            android:fadingEdge="none"
+            android:overScrollMode="never"   
+            android:smoothScrollbar="true"
+            android:soundEffectsEnabled="true"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="1.0px" >
+        </GridView>
+    </RelativeLayout>
+
+</RelativeLayout>

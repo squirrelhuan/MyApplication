@@ -3,7 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.administrator.myapplication.ScrollingActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_settings01"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings02"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings03"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings04"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings05"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings06"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
