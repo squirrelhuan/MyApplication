@@ -39,13 +39,12 @@
     <RadioGroup
         android:gravity="center"
         android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/btn_0"
-            android:layout_width="60dp"
-            android:layout_height="52dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="消息"
             android:gravity="center"
             android:checked="true"
@@ -54,8 +53,8 @@
             />
         <RadioButton
             android:id="@+id/btn_1"
-            android:layout_width="60dp"
-            android:layout_height="52dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="电话"
             android:gravity="center"
             android:button="@null"
