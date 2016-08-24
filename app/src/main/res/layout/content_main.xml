@@ -44,10 +44,9 @@
         >
         <RadioButton
             android:id="@+id/btn_0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="最新信息"
-            android:textSize="17.0sp"
+            android:layout_width="60dp"
+            android:layout_height="52dp"
+            android:text="消息"
             android:gravity="center"
             android:checked="true"
             android:button="@null"
@@ -55,24 +54,14 @@
             />
         <RadioButton
             android:id="@+id/btn_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="在线专家"
-            android:textSize="17.0sp"
+            android:layout_width="60dp"
+            android:layout_height="52dp"
+            android:text="电话"
             android:gravity="center"
             android:button="@null"
-            android:background="@drawable/radio01"
+            android:background="@drawable/radio02"
             />
-        <RadioButton
-            android:id="@+id/btn_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="预约服务"
-            android:textSize="17.0sp"
-            android:gravity="center"
-            android:button="@null"
-            android:background="@drawable/radio01"
-            />
+
     </RadioGroup>
 
 </RelativeLayout>

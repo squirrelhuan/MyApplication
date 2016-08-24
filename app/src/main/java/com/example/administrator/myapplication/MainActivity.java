@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private PopupWindow pW_menu = null;
     private GridView gridview_menu;
     private RelativeLayout rel_menu_bg;
-    private String[] Name = { "昵称", "账号", "设置", "地区", "绑定信息", "设备信息","关于软件" };
+    private String[] Name = { "多人聊天", "加好友", "扫一扫", "面对面快传", "付款"};
+    private int[] Images_ic = {R.drawable.conversation_options_multichat,R.drawable.conversation_options_addmember,R.drawable.conversation_options_qr,R.drawable.conversation_facetoface_qr,R.drawable.conversation_options_charge_icon};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         // 通过for循环将图片id和列表项文字放到Map中，并添加到list集合中
         for (int i = 0; i < Name.length; i++) {
             Map<String, Object> map = new HashMap<String, Object>();
-            // map.put("image", R.drawable.ic_launcher);
+             map.put("image", Images_ic[i]);
             map.put("name", Name[i]);
             listItems.add(map); // 将map对象添加到List集合中
         } // 通过for循环将图片id和列表项文字放到Map中，并添加到list集合中

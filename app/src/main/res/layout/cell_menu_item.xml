@@ -6,16 +6,16 @@
     android:orientation="vertical" >
 
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="45sp" >
+        android:layout_width="match_parent"
+        android:layout_height="42dp" >
 
         <ImageView
             android:id="@+id/menu_item_image"
-            android:layout_width="32dp"
-            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:layout_margin="5dp"
+            android:layout_margin="8dp"
             android:background="@drawable/ic_cast_dark" />
 
         <TextView
